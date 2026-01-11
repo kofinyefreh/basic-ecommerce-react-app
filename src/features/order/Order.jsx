@@ -42,7 +42,7 @@ const order = {
 };
 
 function Order() {
-  // Everyone can search for all orders, so for privacy reasons we're gonna gonna exclude names or address, these are only for the restaurant staff
+  // Everyone can search for all orders, so for privacy reasons we're  gonna exclude names or address, these are only for the restaurant staff
   const {
     id,
     status,
@@ -57,7 +57,7 @@ function Order() {
   return (
     <div>
       <div>
-        <h2>Status</h2>
+        <h2>Status </h2>
 
         <div>
           {priority && <span>Priority</span>}
